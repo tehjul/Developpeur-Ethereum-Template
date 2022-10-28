@@ -21,7 +21,7 @@ contract Vault {
 contract VaultAttacker {
     Vault vault;
 
-    constructor(Vault _vault) {
+    constructor(address _vault) {
         vault = Vault(_vault);
     }
 
